@@ -1,0 +1,160 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Evote.Admin" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-Voting</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Real Site Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+    <link href="css/clockpicker.css" rel="stylesheet" />
+    <link href="css/standalone.css" rel="stylesheet" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/iconeffects.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" type="text/css" href="css/jquery-ui1.css">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+<!--//end-animate-->
+<link href='//fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap-clockpicker.css" rel="stylesheet" />
+    <link href="css/bootstrap-clockpicker.min.css" rel="stylesheet" />
+   
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+   
+    <script src="js/clockpicker.js"></script>
+    
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>     
+         
+
+  
+    <form id="form1" runat="server">
+        <div class="explore ">
+    <header >
+         
+	<div class="head_top wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+		<div class="container">
+			<div class="banner-right">
+				<ul>
+					<%if (Session["Admin"] != null)
+                                            {
+
+                                                lnkLogin.Visible = false;
+
+
+                                            }
+                                            else {
+                                                lnklogout.Visible = false;
+                                            }
+                                                 %>
+                                        
+										<li><asp:LinkButton ID="lnkLogin" runat="server" class="hvr-overline-from-center title" OnClick="lnkLogin_Click">Login</asp:LinkButton></li>
+										<li><asp:LinkButton ID="lnkInst" runat="server" class="hvr-overline-from-center title" OnClick="lnkinst_Click">Instroction</asp:LinkButton></li>
+										<li><asp:LinkButton ID="lnkList" runat="server" class="hvr-overline-from-center title" OnClick="lnklist_Click">List</asp:LinkButton></li>
+										<li><asp:LinkButton ID="lnkElector" runat="server" class="hvr-overline-from-center title" OnClick="lnkElector_Click">Elector</asp:LinkButton></li>
+										<li><asp:LinkButton ID="lnkSetting" runat="server" class="hvr-overline-from-center title" OnClick="lnkSetting_Click">Setting</asp:LinkButton></li>
+                                        <li><asp:LinkButton ID="lnkResult" runat="server" class="hvr-overline-from-center title" OnClick="lnkResult_Click">Result</asp:LinkButton></li>
+                                        <li><asp:LinkButton ID="lnklogout" runat="server" class="hvr-overline-from-center title" OnClick="lnkLogout_Click">Logout</asp:LinkButton></li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+
+<!-- //header -->
+<!-- navigation -->
+         
+							<!-- Collect the nav links, forms, and other content for toggling -->
+                            
+							
+        </header>  
+        <div>
+      
+        <section >
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </section>
+            </div>
+        <footer  >
+            <div class="footer w3agile wow bounceInDown" >
+	<div class="container">
+		<!-- <div class="foo-arr text-center"><img src="images/arrows.png" alt=" "/></div> -->
+		<div class="col-md-4 footer-left">
+			<i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i><p>Airport street, <span>Amman Capital</span></p>
+		</div>
+		<div class="col-md-4 footer-left">
+			<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><p><a href="mailto:motazzghoul98@gmail.com">motazzghoul98@gmail.com</a><span><a href="mailto:abdealrhman1996@gmail.com">abdealrhman1996@gmail.com</a></span></p>
+		</div>
+		<div class="col-md-4 footer-left">
+			<i class="glyphicon glyphicon-earphone" aria-hidden="true"></i><p>0787424925<span>0795476035</span></p>
+		</div>
+		<div class="clearfix"></div>
+		<div class="copyrights w3">
+			<div class="copy-left">
+				<p>© 2018 Electronic Votiong. All rights reserved | Design by<a href="http://w3layouts.com/">W3layouts</a></p>
+			</div>
+			<div class="copy-right agileinfo">
+				<ul class="fb_icons">
+					<li class="hvr-rectangle-out"><a class="fb" href="#"></a></li>
+					<li class="hvr-rectangle-out"><a class="twit" href="#"></a></li>
+					<li class="hvr-rectangle-out"><a class="goog" href="#"></a></li>
+					<li class="hvr-rectangle-out"><a class="pin" href="#"></a></li>
+					<li class="hvr-rectangle-out"><a class="drib" href="#"></a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //footer -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+
+
+        </footer>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\ApplicationInsights.config
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\roslyn\csc.exe
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\roslyn\vbc.exe
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\roslyn\VBCSCompiler.exe
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Evote.dll.config
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Evote.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Evote.pdb
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Microsoft.AI.Web.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Microsoft.AI.Web.xml
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\obj\Debug\Evote.dll
+C:\Users\Moath Alzghoul\documents\visual studio 2015\Projects\Evote\Evote\obj\Debug\Evote.pdb
+C:\Users\Moath Alzghoul\Documents\Visual Studio 2015\Projects\Evote\Evote\obj\Debug\Evote.csprojAssemblyReference.cache
+C:\Users\Moath Alzghoul\Documents\Visual Studio 2015\Projects\Evote\Evote\obj\Debug\Evote.csproj.CoreCompileInputs.cache
+C:\Users\Moath Alzghoul\Documents\Visual Studio 2015\Projects\Evote\Evote\obj\Debug\Evote.csproj.CopyComplete
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\ApplicationInsights.config
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\roslyn\csc.exe
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\roslyn\vbc.exe
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\roslyn\VBCSCompiler.exe
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Evote.dll.config
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Evote.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Evote.pdb
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Microsoft.AI.Web.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Microsoft.ApplicationInsights.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Microsoft.AI.Web.xml
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Microsoft.ApplicationInsights.xml
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\obj\Debug\Evote.csprojAssemblyReference.cache
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\obj\Debug\Evote.csproj.CoreCompileInputs.cache
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\obj\Debug\Evote.csproj.CopyComplete
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\obj\Debug\Evote.dll
+C:\Users\motaz\Downloads\New folder (3)\Evote\Evote\obj\Debug\Evote.pdb

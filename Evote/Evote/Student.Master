@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Student.master.cs" Inherits="Evote.Student" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Real Site Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/ihover.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+
+<link href='//fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css' />
+
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+         <div class="banner page_head w3l">
+        <header>
+         
+	<div class="head_top  wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+		<div class="container">
+			<div class="banner-right">
+				<ul>
+					<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>0787424925</li>
+					<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="login.aspx">Motazzghoul98@gmail.com</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+           
+
+    </header>
+             
+
+    <section>
+     
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </section>
+        </div>  
+        <footer>
+            <div class="footer w3agile  wow bounceInDown">
+	<div class="container">
+		<!-- <div class="foo-arr text-center"><img src="images/arrows.png" alt=" "/></div> -->
+		<div class="col-md-4 footer-left">
+			<i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i><p>123K Avenue, 5th Street, <span>Amman City</span></p>
+		</div>
+		<div class="col-md-4 footer-left">
+			<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><p><a href="mailto:example@mail.com">motazzghoul@gmail.com</a><span><a href="mailto:example@mail.com">mail@example2.com</a></span></p>
+		</div>
+		<div class="col-md-4 footer-left">
+			<i class="glyphicon glyphicon-earphone" aria-hidden="true"></i><p>0787424925<span>0788454069</span></p>
+		</div>
+		<div class="clearfix"></div>
+		<div class="copyrights w3">
+			<div class="copy-left">
+				<p>© 2018 Electronic Votiong. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+			</div>
+			<div class="copy-right agileinfo">
+				<ul class="fb_icons">
+					<li class="hvr-rectangle-out"><a class="fb" ></a></li>
+					<li class="hvr-rectangle-out"><a class="twit"></a></li>
+					<li class="hvr-rectangle-out"><a class="goog" ></a></li>
+					<li class="hvr-rectangle-out"><a class="pin"></a></li>
+					<li class="hvr-rectangle-out"><a class="drib"></a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //footer -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+
+
+        </footer>
+    </form>
+    
+</body>
+</html>
